@@ -1,0 +1,36 @@
+.example{
+    color:red;
+}
+
+html{
+    background-color: gray;
+}
+
+/**/
+table{
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #DED3C4;
+  color: #000000;
+  width:100%;
+}
+th, td{
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+th:last-child, td:last-child{
+  border-right:none;
+}
+tr:last-child td{
+  border-bottom: none;
+}
+caption{
+    color: white;
+      background-color: #DED3C4;
+}
+/**/
+/*
+th{
+    text-align: left;
+}
+*/

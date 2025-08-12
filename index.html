@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning and Practicing More</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+
+  <body>
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements"
+      target="_blank"
+    >
+      <h1>Headings (This is heading1)</h1>
+    </a>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <hr />
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente iste
+      dolorum soluta amet non ut ad, illum perferendis, architecto blanditiis
+      provident molestiae sint magni alias.
+    </p>
+    <p>
+      Bu paragrafta aşağı satıra atmak istediğim bir cümlem var. <br />Bu cümle
+      aynı
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p"
+        target="_blank"
+        >paragraf</a
+      >
+      elemanı içinde olmasına ve belki sayfanın devamında gidebileceği yer
+      olmasına rağmen kendini yeni bir satıra attı,
+      <code>br</code> elemanı sayesinde yaptım.
+    </p>
+    <p>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/hr"
+        target="_blank"
+        >hr</a
+      >
+      ve
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/br"
+        target="_blank"
+        >br</a
+      >
+      gibi ayrı bir kapanış etiketi bulunmayan elemanlara
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Glossary/Void_element"
+        target="_blank"
+        >empty tag veya resmi olarak <strong>void tag</strong></a
+      >
+      deriz.
+    </p>
+    <pre>
+            Ağlamak için gözԁen уaş mı akmalı?
+            Duԁaklar gülerken, insan ağlaуamaz mı?
+            Sevmek için güzele mi bakmalı?
+            Çirkin bir tenԁe güzel bir ruh, kalbi bağlaуamaz mı?
+            Hasret; özlenenԁen uzak mı kalmaktır?
+            Özlenen уakınԁaуken hicran ԁuуulamaz mı?
+            Hırsızlık; para, malmı çalmaktır?
+            Saaԁet çalmak, hırsızlık olamaz mı?
+            Solması için gülü ԁalınԁan mı koparmalı?
+            Pembe bir gonca iken gül ԁalınԁa solmaz mı?
+            Ölԁürmek için silah, hançer mı olmalı?
+            Saçlar bağ, gözler silah, gülüş, kurşun olamaz mı?
+        </pre
+    >
+    <span>Bu üstteki bir pre elemanı.</span>
+
+    <hr />
+
+    <p style="color: red">
+      Inline style ile kırmızı renk uygulanmış bir paragraf
+    </p>
+    <h1
+      style="
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+      "
+    >
+      This is a heading1 with inline font-family styling
+    </h1>
+    <p style="font-size: 80%; text-align: end">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, neque laborum
+      asperiores culpa eveniet nobis?
+    </p>
+
+    <hr />
+
+    <div>
+      <div>
+        <p>
+          <span class="example"
+            >The two most popular science courses offered by the school are
+            <b class="term">chemistry</b> (the study of chemicals and the
+            composition of substances) and <b class="term">physics</b> (the
+            study of the nature and properties of matter and energy).</span
+          ><br />
+          The b HTML element is used to draw the reader's attention to the
+          element's contents, which are not otherwise granted special
+          importance. This was formerly known as the Boldface element, and most
+          browsers still draw the text in boldface. However, you should not use
+          b for styling text or granting importance. If you wish to create
+          boldface text, you should use the CSS font-weight property. If you
+          wish to indicate an element is of special importance, you should use
+          the strong element.
+        </p>
+        <br />
+        <span>Usage Notes for b element:</span><br />
+        <ul>
+          <li>
+            Use the b element for cases like keywords in a summary, product
+            names in a review, or other spans of text whose typical presentation
+            would be boldfaces (but not including any special importance).
+          </li>
+          <li>
+            Do not confuse the b element with the strong, em or mark elements.
+            The strong element represents text of certain importance, em puts
+            some emphasis on the text and the mark element represents text of
+            certain relevance. The b element doesn't convey such special
+            semantic information;
+            <strong>use it only when no others fit.</strong>
+          </li>
+          <li>
+            Similarly, do not mark titles and headings using the b element. For
+            this purpose, use the h1 to h6 tags. Further, stylesheets can change
+            the default style of these elements, with the result that they are
+            not necessarily displayed in bold.
+          </li>
+          <li>
+            It is a good practice to use the class attribute on the b element in
+            order to convey additional semantic information as needed (for
+            example creating a b element with a class like "lead" for the first
+            sentence in a paragraph). This makes it easier to manage multiple
+            use cases of b if your stylistic needs change, without the need to
+            change all of its uses in the HTML.
+          </li>
+          <li>
+            Historically, the b element was meant to make text boldface. Styling
+            information has been deprecated since HTML4, so the meaning of the b
+            element has been changed.
+          </li>
+          <li>
+            If there is no semantic purpose to using the b element, you should
+            use the CSS font-weight property with the value "bold" instead in
+            order to make text bold.
+          </li>
+        </ul>
+      </div>
+      <p>
+        <span class="example"
+          >Before proceeding,
+          <strong>make sure you put on your safety goggles</strong>.</span
+        ><br />
+        The strong element is for content that is of "strong importance,"
+        including things of great seriousness or urgency (such as warnings).
+        This could be a sentence that is of great importance to the whole page,
+        or you could merely try to point out that some words are of greater
+        importance compared to nearby content.
+      </p>
+      <p>
+        <span class="example"
+          >The term <i>bandwidth</i> describes the measure of how much
+          information can pass through a data connection in a given amount of
+          time.</span
+        ><br />
+        The i HTML element represents a range of text that is set off from the
+        normal text for some reason, such as idiomatic text, technical terms,
+        taxonomical designations, among others. Historically, these have been
+        presented using italicized type, which is the original source of the i
+        naming of this element.
+      </p>
+      <p>
+        <span class="example" id="bookmark1"
+          >We <em>had</em> to do something about it.</span
+        ><br />
+        The em element is for words that have a stressed emphasis compared to
+        surrounding text, which is often limited to a word or words of a
+        sentence and affects the meaning of the sentence itself.
+      </p>
+      <p>
+        <span class="example"
+          ><small
+            >The content is licensed under a Creative Commons
+            Attribution-ShareAlike 2.5 Generic License.</small
+          ></span
+        >
+        <br />
+        The small HTML element represents side-comments and small print, like
+        copyright and legal text, independent of its styled presentation. By
+        default, it renders text within it one font-size smaller, such as from
+        small to x-small.
+      </p>
+    </div>
+
+    <hr />
+
+    <p>
+      The guy on the street said <q>I'm homeless, help me!</q>and other person
+      helped him with a money.
+    </p>
+
+    <div>
+      <blockquote
+        cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/blockquote"
+      >
+        The blockquote HTML element indicates that the enclosed text is an
+        extended quotation. Usually, this is rendered visually by indentation
+        (see Notes for how to change it). A URL for the source of the quotation
+        may be given using the cite attribute, while a text representation of
+        the source can be given using the cite element.
+      </blockquote>
+    </div>
+
+    <p>
+      This is an <abbr title="Hyper Text Markup Language">HTML</abbr> language.
+      And I used abbreviation element here.
+    </p>
+
+    <div>
+      <p>Contact the author of this page:</p>
+
+      <address>
+        <a href="mailto:abcdefg123@example.com">abcdefg123@example.com</a>
+        <br />
+        <a href="tel:+12357943312">+1 (235) 7943-312</a>
+      </address>
+      <p>
+        Typically an address element can be placed inside the footer element of
+        the current section, if any. Go
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/address#usage_notes"
+          target="_blank"
+          >MDN Web Docs</a
+        >
+        for more usage notes
+      </p>
+    </div>
+
+    <p><cite>Brave Heart</cite> movie from Mel Gibson is well rated.</p>
+
+    <p>
+      I write this text straight forward but when bdo element applied with right
+      to left parameter('rtl' from dir(direction) attribute), it will turn
+      around. Example: <bdo dir="rtl">Hello World!</bdo>Beside bdo, when we copy
+      it, it will copied the way in the code, without the changes applied!
+    </p>
+
+    <p><bdo dir="rtl">!dlroW olleH</bdo></p>
+
+    <!--This is a comment-->
+
+    <p>
+      Hello
+      <!--Mars!(This is an inline comment)-->
+      World!
+    </p>
+
+    <h1 style="background-color: rgb(255, 99, 71)">rgb coloring</h1>
+    <h1 style="background-color: #ff6347">hex coloring</h1>
+    <h1 style="background-color: hsl(9, 100%, 64%)">hsl coloring</h1>
+    <h1 style="background-color: rgba(255, 99, 71, 0.5)">
+      rgba coloring(a for alpha therefore transparency and opacity, background
+      color's alpha value 0.5)
+    </h1>
+    <h1 style="background-color: hsla(9, 100%, 64%, 0.5)">
+      hsla coloring(a for alpha therefore transparency and opacity, background
+      color's alpha value 0.5)
+    </h1>
+
+    <hr />
+
+    <p style="background-color: hsla(9, 90%, 46%, 0.6)">
+      CSS Tip: The word cascading means that a style applied to a parent element
+      will also apply to all children elements within the parent. So, if you set
+      the color of the body text to "blue", all headings, paragraphs, and other
+      text elements within the body will also get the same color (unless you
+      specify something else)!
+    </p>
+
+    <a
+      href="../6.4_Motivation_Meme_Project/solution/assets/images/daenerys.jpeg"
+      target="_blank"
+      alt="a tv show character from game of thrones looks at an egg."
+      >Click here to go somewhere with a element, it will be url but you don't
+      know it's a webpage or an image or something else(maybe somewhere on the
+      page). This is a relative link url.</a
+    >
+
+    <a href="mailto:examplemail@example.com">Mail me!</a>
+
+    <button
+      onclick="document.location='../6.4_Motivation_Meme_Project/solution/assets/images/daenerys.jpeg'"
+      title="Going to an image in documents, with using onclick document.location property idk exactly what it is"
+    >
+      Click and find the egg!
+    </button>
+
+    <a href="https://www.w3schools.com/html/default.asp" target="_blank"
+      >absolute url to w3schools</a
+    >
+
+    <a href="#bookmark1">Go to the em element</a>
+
+    <p>
+      Note! Use css style while setting the width and height of an image instead
+      of attribute ones. This way, css can't override because you already write
+      in css(unless a bad css specificity tho this is kinda indirectly that).
+    </p>
+
+    <hr />
+
+    <h1>Table With Rounded Smooth Borders</h1>
+
+    <table>
+        
+      <tr>
+        <th>Firstname</th>
+        <th>LastName</th>
+        <th>Age</th>
+      </tr>
+      <caption>Sample Website</caption>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>26</td>
+      </tr>
+      <tr>
+        <td>Jane</td>
+        <td>Doe</td>
+        <td>24</td>
+      </tr>
+      <tr>
+        <td>Dave</td>
+        <td>Bruss</td>
+        <td>35</td>
+      </tr>
+    </table>
+
+    <p>
+      We have a goal that we are trying to do with
+      <abbr title="Cascading Style Sheets">CSS</abbr>. We are trying to create a
+      table with rounded white borders. But when we use border-collapse:collapse
+      with the border-radius property, we failed and border-radius did not
+      worked.<br /><br />
+      For this reason, we created the borders and give border-radius just to the
+      table element. Therefore we couldn't create borders for all corners with
+      the border property for the th and td elements because borders were being
+      double without the collapse. And when we use collapse it overrides the
+      border-radius.<br /><br />
+      Thus we create the borders with the single border properties like
+      border-right and border-bottom. It worked then we gived a smooth color to
+      the borders compatible with the table's background color.<br /><br />
+      Trick was using the :last-child
+      <abbr title="Cascading Style Sheets">CSS</abbr> pseudo-class and destroy
+      the repeated borders for the same area.
+    </p>
+
+    <hr />
+
+    <!-- CSS doesn't work like HTML attributes work. HTML attributes are directly attached to the HTML elements. You either can use a HTML attribute on that specific element or can't.<br>
+            However CSS properties are not attached to the HTML elements with one situation like HTML attributes.-->
+
+    <div>
+      <h1 style="color: blue">
+        HTML Attributes vs CSS Properties: In The Context of Effecting HTML
+        Elements
+      </h1>
+      <p>
+        Important Note: We know which HTML element can take which attribute, but
+        we don't know which HTML element can take which CSS attributes
+        <strong>exactly</strong>. Because:
+      </p>
+      <ul>
+        <li>
+          In HTML, attributes are <strong>explicitly bound</strong> to specific
+          elements in the HTML Standard.
+        </li>
+        <li>
+          In CSS, properties are <strong>not hard-wired to HTML elements</strong> like HTML attributes are. Instead, each CSS property is defined in its own specification with an <q>Applies to</q> rule. That rule describes the kind of boxes or element roles the property can affect - not the tag names.
+        </li>
+      </ul>
+      <span><strong>Important Links</strong> About This Topic:</span>
+      <ul>
+        <li>
+          <a href="https://www.w3.org/Style/CSS/specs.en.html" target="_blank"
+            >CSS Specifications</a
+          >
+          <ul>
+            <li>
+              <a href="https://www.w3.org/TR/css/#css" target="_blank"
+                >CSS Snapshot 2024</a
+              >
+              (This is the latest snapshot while I am taking this note!)
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="https://html.spec.whatwg.org/multipage/" target="_blank"
+            >HTML Living Standard by WHATWG</a
+          >
+        </li>
+        <li>
+          MDN Web Docs
+          <ul>
+            <li>
+              What is MDN Web Docs?
+              <ul>
+                <li>
+                  <a
+                    href="https://en.wikipedia.org/wiki/MDN_Web_Docs"
+                    target="_blank"
+                    >Wikipedia of MDN Web Docs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.freecodecamp.org/news/the-mozilla-developer-network-what-it-is-and-how-to-use-it/"
+                    target="_blank"
+                    >What is MDN and how to use it by freecodecamp</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                target="_blank"
+                >HTML</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                target="_blank"
+                >CSS</a
+              >
+            </li>
+            <li>Other Links that are not so related to this topic but I wanted to mention it:
+              <ul>
+                <li>
+                  <a href="" target="_blank">devdocs.io</a> is a third party
+                  developer documentation website and it's an open source
+                  project, operated by freecodecamp org.
+                  <a
+                    href="https://github.com/freeCodeCamp/devdocs"
+                    target="_blank"
+                    >Github page of devdocs.io</a
+                  >
+                </li>
+                <li>
+                  Also there is
+                  <a href="https://devdoc.net/" target="_blank">devdoc.net</a>
+                  if you wanna look at it.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <span style="font-size:20px;"><a href="./second.html" style="color:red;">Continue to read</a></span>
+    </div>
+  </body>
+</html>

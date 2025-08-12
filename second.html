@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learn & Practice 2</title>
+
+        <link type="text/css" rel="stylesheet" href="./second.css">
+    </head>
+    <body>
+        <h1>I'm learning and this is my practicing page.</h1>
+        <h2>Some Important Notes:</h2>
+        
+        <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/thead#usage_notes">
+            <p>
+               The thead is placed after any caption and colgroup elements, but before any tbody, tfoot, and tr elements.
+            </p>
+        </blockquote>
+
+        <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/th#scope">
+            <p>
+                scope attribute: Defines the cells that the header (defined in the <th>) element relates to. Possible enumerated values are: row, col, rowgroup, colgroup.<br>
+                row: the header relates to all cells of the row it belongs to;<br>
+                col: the header relates to all cells of the column it belongs to;
+            </p>
+        </blockquote>
+        
+        <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/thead#usage_notes">
+            <p>
+                thead element usage note:
+                Along with its related tbody and tfoot elements, the thead element provides useful semantic information and can be used when rendering for either screen or print. Specifying such table content groups also provides valuable contextual information for assistive technologies, including screen readers and search engines.
+            </p>
+        </blockquote>
+        
+        <table>
+            <caption>Table 1</caption>
+
+            <colgroup>
+                <col />
+                <col span="1" class="expenditure-colgroup"/>
+            </colgroup>
+
+            <thead>
+                <tr>
+                    <th scope="col">Items</th>
+                    <th scope="col">Expenditure</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Donuts</td>
+                    <td>3,000</td>
+                </tr>
+                
+                <tr>
+                    <td>Stationery</td>
+                    <td>18,000</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th scope="row">Totals</th>
+                    <td>21,000</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+        <dl>
+            <dt>Firefox</dt>
+            <dd>A free, open source, cross-platform, graphical web browser developed by the Mozilla Corporation and hundreds of volunteers.</dd>
+            
+            <dt>Description List (dl) element</dt>
+            <dd>The dl HTML element represents a description list. The element encloses a list of groups of terms (specified using the dt element) and descriptions (provided by dd elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs.)</dd>
+
+            <dt>Description Term (dt) element</dt>
+            <dd>The dt HTML element specifies a term in a description or definition list, and as such must be used inside a dl element. It is usually followed by a dd element; <strong>however</strong>, multiple dt elements in a row indicate several terms that are all defined by the immediate next dd element</dd>
+
+            <dt>Description Details (dd) element</dt>
+            <dd>The dd HTML element provides the description, definition, or value for the preceding term (dt element) in a description list (dl element).</dd>
+        </dl>
+    </body>
+</html>
